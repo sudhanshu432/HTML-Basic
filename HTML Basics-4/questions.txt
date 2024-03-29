@@ -1,0 +1,7 @@
+1. Difference between div ans span
+2. Difference between header tag and h1 tag 
+3. Can we use header tag in footer tag 
+4. Can we use multiple header tag
+5. what is nav tag For navigational link
+6. What is aside tag
+7. Create DOM of tribute page

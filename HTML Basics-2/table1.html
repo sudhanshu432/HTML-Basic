@@ -1,0 +1,77 @@
+     <!-- 
+        Table 
+            1. <tr> tag for table row
+            2. <td> tag for table data
+            3. <thead> tag contins columns name wala row
+            4. <tbody> tag contains actual datas in cell
+            5. <tfoot> tag contains last row where we sum up our data like total bill etc
+            6. <th> tag is used to make column name bold
+            7. border:1px solid black; this line is use to make border of a table 
+            8. border-collapse:collapse; this line is use to make border collapse by which our table will looks like actual table
+            9. rowspan: 
+            10. colspan:
+            11. rowgap:
+            12. callgroup:
+            13. caption
+
+HW: HTML Basics-2/HW Make this Table.PNG
+
+HW: Welcome to CodeHelp
+    UserName [ this is a text box]
+    PassWord [Enter passWord]
+          Button  
+    
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, tr, td, th{
+            border:1px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+
+</head>
+<body>
+
+    <caption>My First Savings</caption>
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>400</td>
+            </tr>     
+        </tbody>
+
+        <tfoot>
+            <td>Total</td>
+            <td>700</td>
+        </tfoot>
+
+    </table>
+
+
+
+</body>
+</html>
