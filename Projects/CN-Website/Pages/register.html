@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create an account at Coding Ninjas to access a wide range of online courses. Fill out the form with your personal information, choose your courses, and get started with your learning journey.">
+    <meta name="keywords" content="create account, register, online courses, Coding Ninjas, user registration">
+    <meta name="author" content="Coding Ninjas">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../Multimedia/new_cn_logo.svg" alt="cn-logo">
+        <h1>Create an Account</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <!-- Full Name -->
+                     <div>
+                        <label for="fname">Full Name: </label>
+                        <input type="text" id="fname" name="fname" required>    
+                     </div>
+                    <br><br>
+            
+                    <!-- Email -->
+                     <div>
+                        <label for="text">Email: </label>
+                        <input type="text" id="email" name="email" required>           
+                     </div>
+                    <br><br>
+            
+                    <!-- Username -->
+                     <div>
+                        <label for="username">Username: </label>
+                        <input type="text" id="username" name="username" required>
+                     </div>
+                    <br><br>
+            
+                    <!-- Passwoerd -->
+                     <div>
+                        <label for="password">Password: </label>
+                        <input type="password" id="password" name="password" required>
+                     </div>
+                    <br><br>
+    
+                    <!-- User Type -->
+                    <div>
+                        <label for="usertype">User Type: </label>
+                        <select name="usertype" id="usertype" required>
+                            <option value="" disabled selected>Select User Type</option>
+                            <option value="student">Student</option>
+                            <option value="instructor">Instructor</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                    </div>
+                    <br><br>
+    
+                    <!-- select course -->
+                    <div>
+                        <label for="selectcourse">Select Course: </label>
+                        <select name="selectcourse" id="selectcourse" required>
+                            <option value="" disabled selected>Select a Course</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="data-science">Data Science Fundamentals</option>
+                            <option value="digital-marketing">Digital Marketing Mastery</option>
+                            <option value="android-development">Android Development</option>
+                        </select>
+                    </div>
+                    <br><br>
+            
+                    <button type="submit">Register</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
